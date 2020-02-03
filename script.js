@@ -3,9 +3,9 @@
 	   var meuNome = "Jamileumanoites";
 	   return(meuNome);
 
-	   var meuNome = document.getElementById("botaoseta").addEventListener('click', function(){alert({{meuNome}});
-	})
+		document.getElementById ("seta").element.AddEventListener("click", function(){document.getElementById("demo").alert = ("Hello World");
+});
+
+	
         
-      
-      
-  
+    
