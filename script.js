@@ -1,14 +1,10 @@
 	   
+	   function()
 	   var meuNome = "Jamileumanoites";
+	   return(meuNome);
 
-	   document.getElementById(botaoseta).addEventListener('click', function(){alert({{meuNome}});
-	});
-
-	   window.dataLayer[
-       'category': 'Botão',
-       'action': 'click',
-       'label': botaoseta;
-       ];
+	   var meuNome = document.getElementById("botaoseta").addEventListener('click', function(){alert({{meuNome}});
+	})
         
       
       
