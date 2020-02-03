@@ -3,7 +3,7 @@
 	   var meuNome = "Jamileumanoites";
 	   return(meuNome);
 
-		document.getElementById ("seta").element.AddEventListener("click", function(){document.getElementById("demo").alert = ("Hello World");
+		document.getElementById (#seta).element.AddEventListener("click", function a(){document.getElementById("botaseta").alert = ("Hello World");
 });
 
 	
