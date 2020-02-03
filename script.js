@@ -1,7 +1,7 @@
 	   
 	   var dataLayer--meuNome = "Jamileumanoites";
 
-	   document.querySelectorId(botaoseta).addEventListener('click', function(){alert({{dataLayer--meuNome}});
+	   document.querySelector(botaoseta).addEventListener('click', function(){alert({{dataLayer--meuNome}});
 	});
 	   
 	   window.dataLayer[
