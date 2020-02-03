@@ -1,7 +1,7 @@
 	   
-	   var dataLayer--meuNome = "Jamileumanoites";
+	   var meuNome = "Jamileumanoites";
 
-	   document.querySelector(botaoseta).addEventListener('click', function(){alert({{dataLayer--meuNome}});
+	   document.getElementById(botaoseta).addEventListener('click', function(){alert({{meuNome}});
 	});
 
 	   window.dataLayer[
