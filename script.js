@@ -12,7 +12,7 @@
 }
 
 function addEventos(){
-	document.getElementById("seta").AddEventListener("click",nome); 
+	document.getElementById("botaoseta").AddEventListener("click",nome); 
 
 }
 
