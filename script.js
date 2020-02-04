@@ -1,17 +1,15 @@
 
+ document.addEventListener("DOMContentLoaded", function(event) {
+
 function nome(){
 	alert("Olá JahJahmile!");
 
 }
 
 function addEventos(){
-	document.getElementById("logoid").AddEventListener("click",nome()); 
+	document.querySelector("#logoid").AddEventListener("click",nome()); 
 
 }
-  //myNewName.push({'variable_name': 'variable_value'});
-
- document.addEventListener("DOMContentLoaded", function(event) {
-
 	
 document.querySelector('#dados').addEventListener('click', function(){
 var a = window.prompt('Qual seu nome ?');
