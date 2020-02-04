@@ -30,7 +30,7 @@ alert('valor de a:'+a+'valor de b'+b);
 });
 
 
-}
+});
 
 
    //document.getElementById("dados").AddEventListener("click", nameAge());
