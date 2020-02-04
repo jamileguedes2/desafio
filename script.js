@@ -6,13 +6,15 @@ function nome(){
 
 }
 
-	document.querySelector('#logoid').AddEventListener('click', nome()); 
+function addEventos(){
+document.querySelector('#logoid').addEventListener('click', nome()); 
 
-
+}
 	
 document.querySelector('#dados').addEventListener('click', function(){
 var a = window.prompt('Qual seu nome ?');
 var b = window.prompt('Qual sua idade ?');
+window.dataLayer = window.dataLayer || [];
 dataLayer.push({
 'event':'event',
 'eventCategory':'category',
