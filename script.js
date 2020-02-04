@@ -10,22 +10,18 @@ function addEventos(){
 }
   //myNewName.push({'variable_name': 'variable_value'});
 
-	function nameAge(){
-     var a = window.prompt('Qual seu nome ?');
-       var b = window.prompt('Qual sua idade ?');
-       window.dataLayer = window.dataLayer || [];
-       dataLayer.push({
-                'event':'event',
-                'eventCategory':'category',
-                'eventAction':a,
-                'eventLabel':b,
-                });
-
-       document.getElementById("dados").AddEventListener("click", nameAge());
-		alert('1. '+a+' 2. '+b);
-
-
-                };
+	
+document.querySelector('#dados').addEventListener('click', function(){
+var a = window.prompt('Qual seu nome ?');
+var b = window.prompt('Qual sua idade ?');
+dataLayer.push({
+'event':'event',
+'eventCategory':'category',
+'eventAction':a,
+'eventLabel':b,
+});
+alert('valor de a:'+a+'valor de b'+b);
+});
 
    //document.getElementById("dados").AddEventListener("click", nameAge());
 	//alert(a+b);
