@@ -20,10 +20,15 @@ function addEventos(){
                 'eventAction':a,
                 'eventLabel':b,
                 });
+
+       document.getElementById("dados").AddEventListener("click", nameAge());
+		alert('1. '+a+' 2. '+b);
+
+
                 };
 
-   document.getElementById("dados").AddEventListener("click", nameAge());
-	alert(a+b);
+   //document.getElementById("dados").AddEventListener("click", nameAge());
+	//alert(a+b);
 	
 
 
