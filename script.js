@@ -1,25 +1,37 @@
+
 function nome(){
 	alert("Olá JahJahmile!");
 
 }
 
 function addEventos(){
-	document.getElementById("logoid").AddEventListener("click",nome); 
+	document.getElementById("logoid").AddEventListener("click",nome()); 
 
 }
-
   //myNewName.push({'variable_name': 'variable_value'});
 
-document.querySelector('.dados').AddEventListener('click', function()){
+	function nameAge(){
      var a = window.prompt('Qual seu nome ?');
        var b = window.prompt('Qual sua idade ?');
+       window.dataLayer = window.dataLayer || [];
        dataLayer.push({
                 'event':'event',
                 'eventCategory':'category',
                 'eventAction':a,
                 'eventLabel':b,
                 });
-                });
+                };
 
+   document.getElementById("dados").AddEventListener("click", nameAge());
 	alert(a+b);
+	
+
+
+	
+//element.addEventListener("click", myFunction);
+
+//function myFunction() {
+//  alert ("Hello World!");
+//}
+
 
