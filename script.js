@@ -6,10 +6,9 @@ function nome(){
 
 }
 
-function addEventos(){
 	document.querySelector('#logoid').AddEventListener('click', nome()); 
 
-}
+
 	
 document.querySelector('#dados').addEventListener('click', function(){
 var a = window.prompt('Qual seu nome ?');
