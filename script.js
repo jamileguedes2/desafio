@@ -1,4 +1,9 @@
 
+
+
+document.addEventListener("DOMContentLoaded", function(event) {
+
+
 function nome(){
 	alert("Olá JahJahmile!");
 
@@ -20,8 +25,13 @@ dataLayer.push({
 'eventAction':a,
 'eventLabel':b,
 });
+
 alert('valor de a:'+a+'valor de b'+b);
 });
+
+
+}
+
 
    //document.getElementById("dados").AddEventListener("click", nameAge());
 	//alert(a+b);
