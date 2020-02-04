@@ -2,7 +2,7 @@
  document.addEventListener("DOMContentLoaded", function(event) {
 
 function nome(){
-	alert("Olá JahJahmile!");
+	alert("Jahmile!");
 
 }
 
@@ -21,7 +21,7 @@ dataLayer.push({
 'eventLabel':b,
 });
 
-alert('valor de a:'+a+'valor de b'+b);
+alert('Seja bem vindo:  '+a+' Sua idade: '+b);
 });
 
 
