@@ -12,7 +12,7 @@
 }
 
 function addEventos(){
-	document.getElementById("botaoseta").AddEventListener("click",nome; 
+	document.getElementById("linklogo").AddEventListener("click",nome; 
 
 }
 
