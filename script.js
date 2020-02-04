@@ -1,21 +1,11 @@
-//	   
-//	   function()
-//	   var meuNome = "Jamileumanoites";
-//	   return(meuNome);
-//
-//		document.getElementById (#seta).element.AddEventListener("click", function a(){document.getElementById("botaseta").alert = ("Hello World");
-//});
-
-	function nome(){
-	return alert("Jamileumanoites!");
+function nome(){
+	alert("Olá JahJah!");
 
 }
 
 function addEventos(){
-	document.getElementById("logoid").AddEventListener("click",nome();) 
+	document.getElementById("logoid").AddEventListener("click",nome); 
 
 }
 
-//window.AddEventListener("load",addEventos;
-        
-    
+window.AddEventListener("load",addEventos);
