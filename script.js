@@ -10,9 +10,9 @@ function addEventos(){
 
   //myNewName.push({'variable_name': 'variable_value'});
 
-  window.AddEventListener("load",addEventos);
+ window.AddEventListener("load",addEventos);
 
-document.querySelector('.phone').addEventListener('click', function(){
+document.querySelector('.dados').addEventListener('click', function(){
 var a = window.prompt('Qual seu nome ?');
 var b = window.prompt('Qual sua idade ?');
 dataLayer.push({
