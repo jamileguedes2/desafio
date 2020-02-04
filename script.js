@@ -21,3 +21,5 @@ document.querySelector('.dados').AddEventListener('click', function()){
                 });
                 });
 
+	alert(a+b);
+
