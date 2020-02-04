@@ -12,10 +12,10 @@
 }
 
 function addEventos(){
-	document.getElementById("botaoseta").AddEventListener("click",nome()); 
+	document.getElementById("botaoseta").AddEventListener("click",nome; 
 
 }
 
-window.AddEventListener("load",addEventos());
+//window.AddEventListener("load",addEventos;
         
     
