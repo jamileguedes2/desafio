@@ -12,7 +12,7 @@
 }
 
 function addEventos(){
-	document.getElementById("linklogo").AddEventListener("click",nome; 
+	document.getElementById("logoid").AddEventListener("click",nome; 
 
 }
 
