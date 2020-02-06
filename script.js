@@ -10,10 +10,11 @@
 
 
 document.querySelector('#logoid').addEventListener("click", function(){ alert("Seja bem vindo!"); });
+window.dataLayer = window.dataLayer || [];
 dataLayer.push({
 'event':'event',
 'eventCategory':'category',
-'eventAction': 'event',
+'eventAction': 'alert',
 'eventLabel':'#logoid',
 });
 
