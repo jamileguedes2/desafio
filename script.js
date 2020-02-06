@@ -14,7 +14,7 @@ window.dataLayer = window.dataLayer || [];
 dataLayer.push({
 'event':'event',
 'eventCategory':'category',
-'eventAction': 'alert',
+'eventAction': 'click',
 'eventLabel':'#logoid',
 });
 
@@ -27,8 +27,8 @@ window.dataLayer = window.dataLayer || [];
 dataLayer.push({
 'event':'event',
 'eventCategory':'category',
-'eventAction':a,
-'eventLabel':b,
+'eventAction':'a',
+'eventLabel':'b',
 });
 
 alert('Olá:  '+a+'!  Sua idade: '+b);
