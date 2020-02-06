@@ -4,7 +4,7 @@
 
 
 
-document.querySelector('#logoid').addEventListener("click") //function(){ alert("Seja bem vindo!"); 
+document.querySelector('#logoid').addEventListener("click", "") //function(){ alert("Seja bem vindo!"); 
 //});
 
 
