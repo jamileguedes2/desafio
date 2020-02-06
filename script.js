@@ -9,7 +9,13 @@
 //function addEventos(){
 
 
-document.querySelector('#logoid').addEventListener("click", function(){ alert("Hello World!"); });
+document.querySelector('#logoid').addEventListener("click", function(){ alert("Seja bem vindo!"); });
+dataLayer.push({
+'event':'event',
+'eventCategory':'category',
+'eventAction': 'event',
+'eventLabel':'#logoid',
+});
 
 //
 
@@ -25,6 +31,7 @@ dataLayer.push({
 });
 
 alert('Olá:  '+a+'!  Sua idade: '+b);
+
 });
 
 
