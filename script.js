@@ -1,16 +1,18 @@
 
  document.addEventListener("DOMContentLoaded", function(event) {
 
-function nome(){
-	alert("Seja bem vindo!");
+//function nome(){
+	//alert("Seja bem vindo!");
 
-}
+//}
 
-function addEventos(){
-document.querySelector('#logoid').addEventListener('click', nome()); 
+//function addEventos(){
 
-}
-	
+
+document.querySelector('#logoid').addEventListener("click", function(){ alert("Hello World!"); });
+
+//
+
 document.querySelector('#dados').addEventListener('click', function(){
 var a = window.prompt('Qual seu nome ?');
 var b = window.prompt('Qual sua idade ?');
